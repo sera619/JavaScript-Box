@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>AI Car Maschine Learning</title>
+</head>
+<body>
+
+    <div class=textHUD>
+       <div class="logo"></div>
+        <h1>Self-Driving Car AI</h1>
+        <h6 id="signature"></h6>
+        <br>
+        <p id="speedTxt">Speed</p>
+        <br>
+        <div class="SpeedContainer">            
+            <ul>
+                <p id="maxSpeedTxt">Max Speed:</p>
+                <li><button id="startBtn">+ MAX SPEED</button></li>
+                <li><button id="resetBtn">- MAX SPEED</button></li>
+                <li><button id="autoBtn">AUTO SPEED</button></li>
+            </ul>
+            <br>
+            <p  id="rayTxt">Current Rays:</p>
+            <ul>
+                <li><button id="rayPlus">+ RAY</button></li>
+                <li><button id="rayMinus">- RAY</button></li>
+            </ul>
+            <br>
+            <p id="laneTxt">Current Lanes:</p>
+            <u>
+                <li><button id="laneUpBtn">+ LANE</button></li>
+                <li><button id="laneDownBtn">- LANE</button></li>
+            </u>
+        </div>    
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <script src="utils.js"></script>
+    <script src="controls.js"></script>
+    <script src="road.js"></script>
+    <script src="car.js"></script>
+    <script src="sensor.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

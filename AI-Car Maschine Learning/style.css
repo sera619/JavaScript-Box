@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #111;
+    overflow: hidden;
+    text-align: center;
+    color:aliceblue;
+    
+}
+canvas{
+    background-color: rgb(66, 64, 64);
+}
+
+
+.textHUD{
+    position: absolute;
+    top: 10%;
+    left: -35%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    color: aliceblue;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    text-align: center;
+}
+.textHUD h1{
+    font-size: 26px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+button{
+    padding: 10px 25px;
+    margin: 5px;
+    background-color: rgb(172, 26, 0);
+    border-radius: 5px;
+    border-style: none;
+    font-weight: bold;
+    text-align: center;
+}
+li{
+    display: block;
+}
+
+button:hover{
+    background-color: rgb(104, 10, 10);
+    text-align: center;
+    scale: 1.1;
+}
+
+
+
+
+
+a:visited{
+    color: aliceblue;
+}
